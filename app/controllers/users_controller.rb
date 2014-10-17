@@ -21,7 +21,7 @@ require 'unirest'
 		@client = Twilio::REST::Client.new account_sid, auth_token 
  
 		@client.account.messages.create({
-			:from => '+16193762984', 
+			:from => ENV['TWILIO_PHONE'], 
 			:to => @user.phone, 
 			:body => params[:user][:text] + " " + @response.body["facts"][0],  
 		})
