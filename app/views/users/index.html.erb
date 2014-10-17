@@ -1,0 +1,11 @@
+<div class="form">
+<h3>Enter your phone number to recieve a fun cat fact!</h3>
+<%= form_for :user do |u| %>
+<%= u.text_field :phone, class: 'input' %>
+<%= u.submit "Send!", class: 'button' %>
+<h5 class="text-link">Want to add an additional message?</h5>
+<%= u.text_area :text, class: 'text' %>
+
+<% end %>
+</div>
+

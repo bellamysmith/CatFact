@@ -1,0 +1,56 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+	background-image: url("http://www.non-solo-arte.com/images/cat-desktop-background-grey.jpg");
+	background-size: cover;
+	background-position: cover;
+	background-repeat: none;
+}
+
+h3 {
+	color: white;
+	font-size: 40px;
+	font-family: Helvetica;
+	font-weight: 100;
+}
+
+.form{
+	margin: 0 auto;
+	position: relative;
+	top: 250px;
+	width: 600px;
+	min-height: 250px;
+	text-align: center;
+	background-color: rgba(255,255,255,0.1);
+	padding: 20px;
+}
+.input{
+	height: 20px;
+	width: 200px;
+}
+.button {
+    background-color: purple;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:2px;
+    color: #ccc;
+    font-family: Helvetica;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+}
+.text-link{
+	color: #AFE8D0;
+	position: absolute;
+	bottom: 0;
+	font-family: Helvetica;
+	font-weight: 100;
+}
+.text{
+	height: 50px;
+	width: 400px;
+	bottom: 0;
+	margin: 10px auto;
+}
