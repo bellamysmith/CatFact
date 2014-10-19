@@ -54,3 +54,28 @@ h3 {
 	bottom: 0;
 	margin: 10px auto;
 }
+
+footer{
+	width: 101%;
+	overflow: hidden;
+	height: 25px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	bottom: 0;
+	left: -10px;
+	margin-right: 0;
+	margin-left: 0;
+	color: #FFF;
+	text-align: center;
+	font-family: Helvetica;
+	padding-top: 5px;
+	a{
+	color: rgba(255,255,255,0.3);
+	font-weight: 100;
+	text-decoration: none;
+
+
+	}
+}
+
+
